@@ -12,18 +12,39 @@ struct EmailVerificationView: View {
 
     var body: some View {
         VStack {
-            VStack (spacing: 34) {
-                Text("Verifikasi untuk akun ChatFIK dibatasi hanya untuk pengguna dengan alamat email upnvj.ac.id.")
-                    .foregroundStyle(.gray)
-                    .font(.system(size: 14))
+            VStack {
+                VStack (spacing: 33) {
+                    (Text("Klik link verifikasi yang telah kami kirim melalui email ke ") +
+                    Text("2310501014@mahasiswa.upnvj.ac.id")
+                        .fontWeight(.bold)
+                        .foregroundColor(.black)
+                    )
+                    .foregroundStyle(.primary)
+                    .font(.system(size: 16))
                     .fontWeight(.regular)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                TextFieldClear(placeholder: "Masukkan email upnvj.ac.id", text: $email, keyboardType: .emailAddress, onClear: {
-                    email = ""
-                })
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    VStack (spacing: 16) {
+                        Button(action: {
+                            print("tap")
+                        }, label: {
+                            Text("Tidak Menerima Tautan Verifikasi?")
+                                .font(.system(size: 15))
+                                .fontWeight(.semibold)
+                        })
+                        .disabled(true)
+                        (Text("Anda dapat meminta kode baru dalam ") +
+                        Text("1:02")
+                            .fontWeight(.bold)
+                            .foregroundColor(.black)
+                        )
+                            .font(.system(size: 15))
+                            .fontWeight(.regular)
+                            .foregroundStyle(.primary)
+                    }
+                }
             }
             Spacer()
-            ButtonFill(title: "Lanjutkan", action: { print("Continue tapped") })
         }
         .padding(.horizontal)
     }

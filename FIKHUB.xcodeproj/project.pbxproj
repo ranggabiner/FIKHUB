@@ -18,6 +18,9 @@
 		8FC3EE982C800BE500658039 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE972C800BE500658039 /* EmailVerificationView.swift */; };
 		8FC3EE9B2C800CAE00658039 /* ButtonFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */; };
 		8FE27BB82C8014DA00ACCC95 /* TextFieldClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */; };
+		8FE27BBC2C80513B00ACCC95 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BBB2C80513B00ACCC95 /* EmailView.swift */; };
+		8FE27BBE2C80645800ACCC95 /* ResendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BBD2C80645800ACCC95 /* ResendView.swift */; };
+		8FE27BC02C8082A100ACCC95 /* ProfileFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BBF2C8082A000ACCC95 /* ProfileFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		8FC3EE972C800BE500658039 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
 		8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFill.swift; sourceTree = "<group>"; };
 		8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClear.swift; sourceTree = "<group>"; };
+		8FE27BBB2C80513B00ACCC95 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		8FE27BBD2C80645800ACCC95 /* ResendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendView.swift; sourceTree = "<group>"; };
+		8FE27BBF2C8082A000ACCC95 /* ProfileFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,9 @@
 			children = (
 				8FC3EE932C8003F600658039 /* WelcomeView.swift */,
 				8FC3EE972C800BE500658039 /* EmailVerificationView.swift */,
+				8FE27BBB2C80513B00ACCC95 /* EmailView.swift */,
+				8FE27BBD2C80645800ACCC95 /* ResendView.swift */,
+				8FE27BBF2C8082A000ACCC95 /* ProfileFormView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -288,9 +297,12 @@
 				8FC3EE982C800BE500658039 /* EmailVerificationView.swift in Sources */,
 				8FC3EE692C80039C00658039 /* ContentView.swift in Sources */,
 				8FC3EE9B2C800CAE00658039 /* ButtonFill.swift in Sources */,
+				8FE27BBC2C80513B00ACCC95 /* EmailView.swift in Sources */,
+				8FE27BC02C8082A100ACCC95 /* ProfileFormView.swift in Sources */,
 				8FC3EE942C8003F600658039 /* WelcomeView.swift in Sources */,
 				8FC3EE672C80039C00658039 /* FIKHUBApp.swift in Sources */,
 				8FE27BB82C8014DA00ACCC95 /* TextFieldClear.swift in Sources */,
+				8FE27BBE2C80645800ACCC95 /* ResendView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
