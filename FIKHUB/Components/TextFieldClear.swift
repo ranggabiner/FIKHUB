@@ -32,7 +32,6 @@ struct TextFieldClear: View {
             }
             .font(.system(size: 17))
             .fontWeight(.regular)
-            Divider()
         }
 
         
