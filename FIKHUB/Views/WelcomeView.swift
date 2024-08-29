@@ -22,14 +22,14 @@ struct WelcomeView: View {
                 }
                 .padding(.bottom, 28)
                 Text("Selamat datang di FIK HUB")
-                    .font(.system(size: 27))
+                    .font(.title)
                     .fontWeight(.semibold)
                     .foregroundStyle(.primary)
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 8)
 
                 Text("Solusi cerdas, efisien, dan andal bagi mahasiswa untuk meraih prestasi akademik")
-                    .font(.system(size: 19))
+                    .font(.title3)
                     .fontWeight(.regular)
                     .multilineTextAlignment(.center)
             }

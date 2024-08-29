@@ -24,6 +24,7 @@
 		8FE27BC22C80938200ACCC95 /* ProdiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BC12C80938200ACCC95 /* ProdiView.swift */; };
 		8FE27BC42C8094AA00ACCC95 /* SemesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BC32C8094AA00ACCC95 /* SemesterView.swift */; };
 		8FE27BC62C80983400ACCC95 /* InitScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BC52C80983400ACCC95 /* InitScheduleView.swift */; };
+		8FE27BC92C80B67700ACCC95 /* AddScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BC82C80B67700ACCC95 /* AddScheduleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		8FE27BC12C80938200ACCC95 /* ProdiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdiView.swift; sourceTree = "<group>"; };
 		8FE27BC32C8094AA00ACCC95 /* SemesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterView.swift; sourceTree = "<group>"; };
 		8FE27BC52C80983400ACCC95 /* InitScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitScheduleView.swift; sourceTree = "<group>"; };
+		8FE27BC82C80B67700ACCC95 /* AddScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,8 +116,8 @@
 		8FC3EE652C80039C00658039 /* FIKHUB */ = {
 			isa = PBXGroup;
 			children = (
+				8FE27BC72C80B64A00ACCC95 /* Views */,
 				8FC3EE992C800C7500658039 /* Components */,
-				8FC3EE902C8003CB00658039 /* View */,
 				8FC3EE662C80039C00658039 /* FIKHUBApp.swift */,
 				8FC3EE682C80039C00658039 /* ContentView.swift */,
 				8FC3EE6A2C80039D00658039 /* Assets.xcassets */,
@@ -149,7 +151,16 @@
 			path = FIKHUBUITests;
 			sourceTree = "<group>";
 		};
-		8FC3EE902C8003CB00658039 /* View */ = {
+		8FC3EE992C800C7500658039 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */,
+				8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8FE27BC72C80B64A00ACCC95 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				8FC3EE932C8003F600658039 /* WelcomeView.swift */,
@@ -160,17 +171,9 @@
 				8FE27BC12C80938200ACCC95 /* ProdiView.swift */,
 				8FE27BC32C8094AA00ACCC95 /* SemesterView.swift */,
 				8FE27BC52C80983400ACCC95 /* InitScheduleView.swift */,
+				8FE27BC82C80B67700ACCC95 /* AddScheduleView.swift */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		8FC3EE992C800C7500658039 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */,
-				8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */,
-			);
-			path = Components;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +316,7 @@
 				8FC3EE942C8003F600658039 /* WelcomeView.swift in Sources */,
 				8FC3EE672C80039C00658039 /* FIKHUBApp.swift in Sources */,
 				8FE27BC22C80938200ACCC95 /* ProdiView.swift in Sources */,
+				8FE27BC92C80B67700ACCC95 /* AddScheduleView.swift in Sources */,
 				8FE27BB82C8014DA00ACCC95 /* TextFieldClear.swift in Sources */,
 				8FE27BBE2C80645800ACCC95 /* ResendView.swift in Sources */,
 			);

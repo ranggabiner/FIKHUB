@@ -17,7 +17,7 @@ struct ProfileFormView: View {
                     HStack {
                         Text("Nama")
                             .frame(maxWidth: 100, alignment: .leading)
-                        TextFieldClear(placeholder: "Mulyono", text: $name, keyboardType: .emailAddress, onClear: {
+                        TextFieldClear(placeholder: "Nama Anda", text: $name, keyboardType: .emailAddress, onClear: {
                             name = ""
                         })
                     }

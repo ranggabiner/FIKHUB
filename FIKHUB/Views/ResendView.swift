@@ -22,12 +22,12 @@ struct ResendView: View {
                 }
                 VStack (spacing: 31) {
                     Text("Tidak menerima link verifikasi?")
-                        .font(.system(size: 27))
+                        .font(.title)
                         .fontWeight(.semibold)
                         .foregroundStyle(.primary)
                         .multilineTextAlignment(.center)
                     Text("Silakan periksa pesan email Anda sebelum meminta link verifikasi lain.")
-                        .font(.system(size: 19))
+                        .font(.title3)
                         .fontWeight(.regular)
                         .multilineTextAlignment(.center)
 

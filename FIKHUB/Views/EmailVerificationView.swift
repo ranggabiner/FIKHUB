@@ -20,7 +20,7 @@ struct EmailVerificationView: View {
                         .foregroundColor(.black)
                     )
                     .foregroundStyle(.primary)
-                    .font(.system(size: 16))
+                    .font(.body)
                     .fontWeight(.regular)
                     .multilineTextAlignment(.center)
                     .frame(maxWidth: .infinity, alignment: .center)
@@ -29,7 +29,7 @@ struct EmailVerificationView: View {
                             print("tap")
                         }, label: {
                             Text("Tidak Menerima Tautan Verifikasi?")
-                                .font(.system(size: 15))
+                                .font(.callout)
                                 .fontWeight(.semibold)
                         })
                         .disabled(true)
@@ -38,7 +38,7 @@ struct EmailVerificationView: View {
                             .fontWeight(.bold)
                             .foregroundColor(.black)
                         )
-                            .font(.system(size: 15))
+                        .font(.callout)
                             .fontWeight(.regular)
                             .foregroundStyle(.primary)
                     }

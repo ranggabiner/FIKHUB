@@ -15,7 +15,7 @@ struct EmailView: View {
             VStack (spacing: 34) {
                 Text("Verifikasi untuk akun ChatFIK dibatasi hanya untuk pengguna dengan alamat email upnvj.ac.id.")
                     .foregroundStyle(.gray)
-                    .font(.system(size: 14))
+                    .font(.subheadline)
                     .fontWeight(.regular)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 TextFieldClear(placeholder: "Masukkan email upnvj.ac.id", text: $email, keyboardType: .emailAddress, onClear: {
