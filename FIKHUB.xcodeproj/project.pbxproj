@@ -14,6 +14,10 @@
 		8FC3EE782C80039D00658039 /* FIKHUBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE772C80039D00658039 /* FIKHUBTests.swift */; };
 		8FC3EE822C80039D00658039 /* FIKHUBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE812C80039D00658039 /* FIKHUBUITests.swift */; };
 		8FC3EE842C80039D00658039 /* FIKHUBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE832C80039D00658039 /* FIKHUBUITestsLaunchTests.swift */; };
+		8FC3EE942C8003F600658039 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE932C8003F600658039 /* WelcomeView.swift */; };
+		8FC3EE982C800BE500658039 /* EmailVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE972C800BE500658039 /* EmailVerificationView.swift */; };
+		8FC3EE9B2C800CAE00658039 /* ButtonFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */; };
+		8FE27BB82C8014DA00ACCC95 /* TextFieldClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		8FC3EE7D2C80039D00658039 /* FIKHUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIKHUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC3EE812C80039D00658039 /* FIKHUBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIKHUBUITests.swift; sourceTree = "<group>"; };
 		8FC3EE832C80039D00658039 /* FIKHUBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIKHUBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FC3EE932C8003F600658039 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8FC3EE972C800BE500658039 /* EmailVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVerificationView.swift; sourceTree = "<group>"; };
+		8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFill.swift; sourceTree = "<group>"; };
+		8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		8FC3EE652C80039C00658039 /* FIKHUB */ = {
 			isa = PBXGroup;
 			children = (
+				8FC3EE992C800C7500658039 /* Components */,
+				8FC3EE902C8003CB00658039 /* View */,
 				8FC3EE662C80039C00658039 /* FIKHUBApp.swift */,
 				8FC3EE682C80039C00658039 /* ContentView.swift */,
 				8FC3EE6A2C80039D00658039 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				8FC3EE832C80039D00658039 /* FIKHUBUITestsLaunchTests.swift */,
 			);
 			path = FIKHUBUITests;
+			sourceTree = "<group>";
+		};
+		8FC3EE902C8003CB00658039 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FC3EE932C8003F600658039 /* WelcomeView.swift */,
+				8FC3EE972C800BE500658039 /* EmailVerificationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8FC3EE992C800C7500658039 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */,
+				8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FC3EE982C800BE500658039 /* EmailVerificationView.swift in Sources */,
 				8FC3EE692C80039C00658039 /* ContentView.swift in Sources */,
+				8FC3EE9B2C800CAE00658039 /* ButtonFill.swift in Sources */,
+				8FC3EE942C8003F600658039 /* WelcomeView.swift in Sources */,
 				8FC3EE672C80039C00658039 /* FIKHUBApp.swift in Sources */,
+				8FE27BB82C8014DA00ACCC95 /* TextFieldClear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +462,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +492,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
