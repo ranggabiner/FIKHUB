@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F13EF472C8143E20031B31E /* RoomLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF462C8143E20031B31E /* RoomLocationView.swift */; };
+		8F13EF492C81449B0031B31E /* EditScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF482C81449B0031B31E /* EditScheduleView.swift */; };
+		8F13EF4D2C8148F50031B31E /* ScheduleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF4C2C8148F50031B31E /* ScheduleList.swift */; };
+		8F13EF4F2C8149780031B31E /* SubjectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF4E2C8149780031B31E /* SubjectPickerView.swift */; };
+		8F13EF512C81499C0031B31E /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF502C81499C0031B31E /* SubjectView.swift */; };
+		8F13EF532C814AE70031B31E /* SubjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF522C814AE70031B31E /* SubjectDetailView.swift */; };
+		8F13EF592C81509D0031B31E /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13EF582C81509D0031B31E /* ScheduleView.swift */; };
 		8FB2B0EA2C80C19400D099F3 /* ProgramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB2B0E92C80C19400D099F3 /* ProgramsView.swift */; };
 		8FC3EE672C80039C00658039 /* FIKHUBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE662C80039C00658039 /* FIKHUBApp.swift */; };
 		8FC3EE692C80039C00658039 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3EE682C80039C00658039 /* ContentView.swift */; };
@@ -45,6 +52,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F13EF462C8143E20031B31E /* RoomLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLocationView.swift; sourceTree = "<group>"; };
+		8F13EF482C81449B0031B31E /* EditScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScheduleView.swift; sourceTree = "<group>"; };
+		8F13EF4C2C8148F50031B31E /* ScheduleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleList.swift; sourceTree = "<group>"; };
+		8F13EF4E2C8149780031B31E /* SubjectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectPickerView.swift; sourceTree = "<group>"; };
+		8F13EF502C81499C0031B31E /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
+		8F13EF522C814AE70031B31E /* SubjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectDetailView.swift; sourceTree = "<group>"; };
+		8F13EF582C81509D0031B31E /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		8FB2B0E92C80C19400D099F3 /* ProgramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramsView.swift; sourceTree = "<group>"; };
 		8FC3EE632C80039C00658039 /* FIKHUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIKHUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC3EE662C80039C00658039 /* FIKHUBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIKHUBApp.swift; sourceTree = "<group>"; };
@@ -156,6 +170,7 @@
 			children = (
 				8FE27BB72C8014CB00ACCC95 /* TextFieldClear.swift */,
 				8FC3EE9A2C800CAE00658039 /* ButtonFill.swift */,
+				8F13EF4C2C8148F50031B31E /* ScheduleList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -172,6 +187,12 @@
 				8FE27BC52C80983400ACCC95 /* InitScheduleView.swift */,
 				8FE27BC82C80B67700ACCC95 /* AddScheduleView.swift */,
 				8FB2B0E92C80C19400D099F3 /* ProgramsView.swift */,
+				8F13EF462C8143E20031B31E /* RoomLocationView.swift */,
+				8F13EF482C81449B0031B31E /* EditScheduleView.swift */,
+				8F13EF4E2C8149780031B31E /* SubjectPickerView.swift */,
+				8F13EF502C81499C0031B31E /* SubjectView.swift */,
+				8F13EF522C814AE70031B31E /* SubjectDetailView.swift */,
+				8F13EF582C81509D0031B31E /* ScheduleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -307,10 +328,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE27BC42C8094AA00ACCC95 /* SemesterView.swift in Sources */,
+				8F13EF472C8143E20031B31E /* RoomLocationView.swift in Sources */,
 				8FC3EE982C800BE500658039 /* EmailVerificationView.swift in Sources */,
 				8FC3EE692C80039C00658039 /* ContentView.swift in Sources */,
 				8FC3EE9B2C800CAE00658039 /* ButtonFill.swift in Sources */,
+				8F13EF592C81509D0031B31E /* ScheduleView.swift in Sources */,
+				8F13EF4F2C8149780031B31E /* SubjectPickerView.swift in Sources */,
 				8FE27BBC2C80513B00ACCC95 /* EmailView.swift in Sources */,
+				8F13EF532C814AE70031B31E /* SubjectDetailView.swift in Sources */,
+				8F13EF512C81499C0031B31E /* SubjectView.swift in Sources */,
 				8FE27BC62C80983400ACCC95 /* InitScheduleView.swift in Sources */,
 				8FE27BC02C8082A100ACCC95 /* ProfileFormView.swift in Sources */,
 				8FC3EE942C8003F600658039 /* WelcomeView.swift in Sources */,
@@ -319,6 +345,8 @@
 				8FE27BC92C80B67700ACCC95 /* AddScheduleView.swift in Sources */,
 				8FE27BB82C8014DA00ACCC95 /* TextFieldClear.swift in Sources */,
 				8FE27BBE2C80645800ACCC95 /* ResendView.swift in Sources */,
+				8F13EF4D2C8148F50031B31E /* ScheduleList.swift in Sources */,
+				8F13EF492C81449B0031B31E /* EditScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
